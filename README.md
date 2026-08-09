@@ -4,7 +4,7 @@ Commercial risk assessment and POA&M remediation tracking aligned to NIST CSF 2.
 
 ## Artifacts
 
-- [Risk Assessment Package (PDF)](Risk_Assessment_Package_Commercial_v1.0.pdf) - Full assessment with executive summary, control statements, implementation evidence, and POA&M tracker
+- [Risk Assessment Package (PDF)](Risk_Assessment_Package_Commercial_v1.2.pdf) - Full assessment with executive summary, control statements, implementation evidence, and POA&M tracker
 - [POA&M Tracking Register (XLSX)](POAM_Tracking_Register.xlsx) - Standalone remediation tracker with risk ratings, SLAs, and status tracking
 
 ## Framework Alignment
