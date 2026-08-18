@@ -4,8 +4,10 @@ Commercial risk assessment and POA&M remediation tracking aligned to NIST CSF 2.
 
 ## Artifacts
 
-- [Risk Assessment Package (PDF)](Risk_Assessment_Package_Commercial_v1.2.pdf) - Full assessment with executive summary, control statements, implementation evidence, and POA&M tracker
+- [Risk Assessment Package (PDF)](Risk_Assessment_Package_Commercial_v1.2.pdf) - Full assessment with executive summary, control statements, implementation evidence, threat model, and POA&M tracker
 - [POA&M Tracking Register (XLSX)](POAM_Tracking_Register.xlsx) - Standalone remediation tracker with risk ratings, SLAs, and status tracking
+- [Third-Party Risk Assessment Framework (PDF)](Third_Party_Risk_Assessment_Framework_v1.1.pdf) - Internal TPRM methodology with criticality tiers, four-domain evaluation, and scoring matrix
+- [Vendor Security Questionnaire (XLSX)](Vendor_Security_Questionnaire_v1.1.xlsx) - External intake form for Medium/High criticality vendors with instructions, 16-question assessment, and internal scoring reference
 
 ## Framework Alignment
 
