@@ -8,6 +8,7 @@ Commercial risk assessment and POA&M remediation tracking aligned to NIST CSF 2.
 - [POA&M Tracking Register (XLSX)](POAM_Tracking_Register.xlsx) - Standalone remediation tracker with risk ratings, SLAs, and status tracking
 - [Third-Party Risk Assessment Framework (PDF)](Third_Party_Risk_Assessment_Framework_v1.1.pdf) - Internal TPRM methodology with criticality tiers, four-domain evaluation, and scoring matrix
 - [Vendor Security Questionnaire (XLSX)](Vendor_Security_Questionnaire_v1.1.xlsx) - External intake form for Medium/High criticality vendors with instructions, 16-question assessment, and internal scoring reference
+- [Vendor Registry (XLSX)](Vendor_Registry_v1.0.xlsx) - Centralized vendor tracking with criticality tiers, assessment schedules, and open POA&M counts
 
 ## Framework Alignment
 
@@ -28,6 +29,17 @@ The Third-Party Risk Assessment names ELD providers, fuel card services, factori
 
 ### Why This POA&M Structure
 The POA&M tracker includes resource allocation because remediation without budget context isn't realistic. Every entry has a dollar sign behind it, even if that dollar sign is "we need to request budget."
+
+### What This Portfolio Demonstrates
+
+| Capability | Artifact |
+|------------|----------|
+| Vendor classification and risk tiering | TPRM Framework |
+| Technical control assessment | Risk Assessment Package |
+| Vendor evidence collection | Vendor Questionnaire |
+| Remediation tracking with resource allocation | POA&M Register |
+| Continuous monitoring and oversight | Vendor Registry |
+| Framework translation (NIST ↔ HIPAA) | Risk Assessment Package (Crosswalk) |
 
 ### What I Would Do Differently
 With more time and access, I would expand the assessment to 12-15 controls covering backup, incident response, and physical security. I would add quantitative risk scoring instead of qualitative High/Medium/Low. I would build a vendor registry with automated reassessment triggers. This portfolio represents a focused five-control assessment. A production engagement would be broader. I am aware of the difference.
