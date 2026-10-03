@@ -1,14 +1,16 @@
 # GRC Risk Portfolio
 
-Cloud-native risk assessment and POA&M remediation tracking aligned to NIST CSF 2.0 and HIPAA Security Rule. Built against AWS infrastructure.
+Simulated risk assessment and POA&M remediation tracking for a fictional logistics platform, aligned to NIST CSF 2.0 and HIPAA Security Rule and mapped to AWS services.
+
+> **Note:** The company referenced in this portfolio is fictional. The framework work, control mappings, and design rationale are real. This is a demonstration project, not a client engagement.
 
 ## Artifacts
 
-- [Risk Assessment Package (PDF)](Risk_Assessment_Package_Commercial_v1.2.pdf) – Five-control assessment of an AWS-hosted logistics platform. Includes executive summary, NIST CSF 2.0 control statements, implementation evidence mapped to AWS services, threat model with three actor profiles, and integrated POA&M tracker.
-- [POA&M Tracking Register (XLSX)](POAM_Tracking_Register.xlsx) – Standalone remediation tracker with risk ratings, resource allocation, SLAs, and status tracking.
-- [Third-Party Risk Assessment Framework (PDF)](Third_Party_Risk_Assessment_Framework_v1.1.pdf) – Internal TPRM methodology with criticality tiers, four-domain evaluation, and scoring matrix.
-- [Vendor Security Questionnaire (XLSX)](Vendor_Security_Questionnaire_v1.1.xlsx) – External intake form for Medium/High criticality vendors with instructions, 16-question assessment, and internal scoring reference.
-- [Vendor Registry (XLSX)](Vendor_Registry_v1.0.xlsx) – Centralized vendor tracking with criticality tiers, assessment schedules, and open POA&M counts.
+- [Risk Assessment Package (PDF)](Risk_Assessment_Package_Commercial_v1.2.pdf) — Five-control assessment for a fictional AWS-hosted logistics platform. Includes executive summary, NIST CSF 2.0 control statements, implementation evidence mapped to AWS services, threat model with three actor profiles, and integrated POA&M tracker.
+- [POA&M Tracking Register (XLSX)](POAM_Tracking_Register.xlsx) — Standalone remediation tracker with risk ratings, resource allocation, SLAs, and status tracking.
+- [Third-Party Risk Assessment Framework (PDF)](Third_Party_Risk_Assessment_Framework_v1.1.pdf) — Internal TPRM methodology with criticality tiers, four-domain evaluation, and scoring matrix.
+- [Vendor Security Questionnaire (XLSX)](Vendor_Security_Questionnaire_v1.1.xlsx) — External intake form for Medium/High criticality vendors with instructions, 16-question assessment, and internal scoring reference.
+- [Vendor Registry (XLSX)](Vendor_Registry_v1.0.xlsx) — Centralized vendor tracking with criticality tiers, assessment schedules, and open POA&M counts.
 
 ## Framework Alignment
 
@@ -30,7 +32,7 @@ The controls assessed map directly to AWS services:
 | SI-4 (System Monitoring) | GuardDuty, Security Hub |
 | IA-2 (Authentication) | IAM Identity Center, MFA enforcement |
 
-The assessment was written against a cloud-based logistics platform running in AWS us-east-1, so the control mappings are cloud-native, not theoretical.
+The assessment was written against a fictional cloud-based logistics platform running in AWS us-east-1, so the control mappings are cloud-native, not theoretical.
 
 ## Design Rationale
 
@@ -44,7 +46,7 @@ This assessment was originally built against NIST 800-53 and CMMC Level 2. I tra
 
 ### Why Logistics-Specific Vendor Categories
 
-The Third-Party Risk Assessment names ELD providers, fuel card services, factoring companies, and freight brokers because those are the actual vendor categories in transportation. Generic TPRM templates list generic SaaS providers. I listed the vendors I spent 12 years managing. Specificity signals operational experience.
+The Third-Party Risk Assessment names ELD providers, fuel card services, factoring companies, and freight brokers because those are the vendor categories I dealt with during 13 years in transportation — 12 as a company driver, 1 as a lease operator. Generic TPRM templates list generic SaaS providers. Specificity signals operational experience.
 
 ### Why This POA&M Structure
 
